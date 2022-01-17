@@ -1,0 +1,142 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=WindSong:wght@500&display=swap');
+</style>
+
+
+.footer{
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 100%;
+    gap: 0px 0px; 
+    
+
+  
+    
+}
+
+.footbody{
+    background: rgb(23, 23, 22);
+    color: #ffffff;
+}
+
+.nav {
+    height:4vw;
+    background-color:#202027;
+    padding:1em;
+}
+
+.look{
+    padding:1em;
+    padding-left: 4em;
+    font-size: 6vh;
+    
+}
+
+.fab{
+    font-family: 'WindSong', cursive;
+    font-size:10vh;
+    padding-left: 8px;
+
+}
+
+@media only screen and (max-width: 600px){
+    .look{
+        padding:1em;
+        padding-left: 1em;
+        font-size: 5vh;
+        
+    }
+}
+.main{
+    height:500px;
+}
+
+html, body{
+    margin:0;
+    padding:0;
+    z-index: 0;
+    width:100%;
+    height:100%;
+    font-family: 'Poppins', sans-serif;
+    background: #2F303A;
+    color:white;
+    
+}
+
+
+#contact{
+    
+}
+
+
+
+
+#you{
+    font-family: 'WindSong', cursive;
+    color: #F62AA0;
+    
+}
+.grid1{
+    
+    color: #ffffff;
+    
+}
+
+.take{
+    font-size: 5vh;
+    padding-left: 1em;
+    padding-right:1em;
+   
+
+}
+.grid2{
+    
+    
+}
+
+#icons{
+  padding-left: 3em;
+  padding-right:1em;
+  padding-top: 0.5em;
+}
+
+
+.newgridwrap{
+    display: grid; 
+  grid-template-columns: 1.1fr 0.9fr; 
+  grid-template-rows: 1.2fr; 
+  gap: 0px 0px; 
+  padding-left: 3em;
+  padding-right:2em;
+  padding-bottom: 0.5em;
+}
+
+
+
+.maps{
+    background: rgb(23, 23, 22);
+    width:80%;
+}
+
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+
+}
+
+
+.maingrid{
+    display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  grid-template-rows: 1.2fr; 
+  gap: 0px 0px; 
+  padding: 2em;
+  box-sizing: border-box;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+
+.gradea{
+    float: right;
+}

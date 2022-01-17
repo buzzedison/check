@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=WindSong:wght@500&display=swap');
+</style>
+
+
+.footer{
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 100%;
+    gap: 0px 0px; 
+    
+
+  
+    
+}
+
+.footbody{
+    background: rgb(23, 23, 22);
+    color: #ffffff;
+}
+
+.nav {
+    height:4vw;
+    background-color:bisque;
+    padding:1em;
+}
+
+
+.main{
+    height:500px;
+}
+
+html, body{
+    margin:0;
+    padding:0;
+    z-index: 0;
+    width:100%;
+    height:100%;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+
+#contact{
+    
+}
+
+.grid3{
+    
+  
+    padding-top: 1em;
+    padding-left: 3em;
+    padding-bottom: 0.5em;
+    padding-right: 1em;
+    
+}
+
+
+#you{
+    font-family: 'WindSong', cursive;
+    color: #F62AA0;
+    
+}
+.grid1{
+    
+    color: #ffffff;
+    
+}
+
+.take{
+    font-size: 5vh;
+    padding-left: 1em;
+    padding-right:1em;
+
+}
+.grid2{
+    
+    
+}
+
+#icons{
+  padding-left: 3em;
+  padding-right:1em;
+}
